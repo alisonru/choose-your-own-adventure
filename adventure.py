@@ -26,20 +26,20 @@ print("Your mission is to find the treasure.")
 #https://www.draw.io/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Treasure%20Island%20Conditional.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1oDe4ehjWZipYRsVfeAx2HyB7LCQ8_Fvi%26export%3Ddownload
 
 #Write your code below this line 👇
-Q1 = input('You\'re at a crossroad. Where do you want to go? Type "left" or "right"')
+Q1 = input('You\'re at a crossroad. \n Where do you want to go? Type "left" or "right"\n')
 if Q1 == "left":
-  Q2 = input('You\'ve come to a lake. There is an island in the middle of the lake. Type "wait" to wait for a boat. Type "swim" to swim across.')
+  Q2 = input('You\'ve come to a lake. \n There is an island in the middle of the lake.\n Type "wait" to wait for a boat. \n Type "swim" to swim across.\n')
   if Q2 == "wait":
-    Q3 = input("You arrive at the island unharmed. There is a house with 3 doors. One red, one yellow and one blue. Which colour do you choose?")
+    Q3 = input("You arrive at the island unharmed. \nThere is a house with 3 doors. \nOne red, one yellow and one blue. \nWhich colour do you choose?\n")
     if Q3 == "red":
-      print("It's a room full of fire. Game Over.")
+      print("It's a room full of fire. \nGame Over.")
     elif Q3 == "blue":
-      print("You enter a room of beasts. Game Over.")
+      print("You enter a room of beasts. \nGame Over.")
     elif Q3 == "yellow":
-      print("You found the treasure! You Win!")
+      print("You found the treasure! \nYou Win!")
     else:
-      print("You chose a door that doesn't exist. Game Over.")
+      print("You chose a door that doesn't exist. \nGame Over.")
   else:
-    print("You get attacked by an angry trout. Game Over.")
+    print("You get attacked by an angry trout. \nGame Over.")
 else:
-  print("You fell into a hole. Game Over.")
+  print("You fell into a hole. \nGame Over.")
