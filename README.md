@@ -1,7 +1,7 @@
 # choose-your-own-adventure
 Python choose your own adventure exercise using conditional operators and nested conditionals
 
-#Part of 100 Days of Code: the Complete Python Bootcamp 2022
+Part of 100 Days of Code: the Complete Python Bootcamp 2022
 
 
 
